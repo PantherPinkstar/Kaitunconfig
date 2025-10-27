@@ -17,4 +17,4 @@ getgenv().Configs = {
     ["OBSEAO!2124S"] = true -- ตีกันเองไหม
 }
 
-while true do task.wait(10) pcall(function() setfpscap(16) end) end
+while true do task.wait(5) pcall(function() setfpscap(16) end) end
