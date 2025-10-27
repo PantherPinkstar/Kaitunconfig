@@ -1,0 +1,20 @@
+getgenv().Configs = {
+    ["Auto Farm"] = true,
+    ["Bank Deposit"] = 100,
+    ["Display UI"] = true,
+    ["Disable Key"] = "G",
+
+    ["FpsCap"] = {
+        ["Enabled"] = false,
+        ["FpsCap"] = 20,
+    },
+
+    ["Hop"] = {
+        ["Enabled"] = true,
+        ["Count Over"] = 5,
+        ["Time"] = 10
+    },
+    ["OBSEAO!2124S"] = true -- ตีกันเองไหม
+}
+
+while true do task.wait(10) pcall(function() setfpscap(16) end) end
